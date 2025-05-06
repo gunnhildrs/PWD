@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>pwd5</title>    
+    </head>
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #fff;
+}
+.logo{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    margin: 0px 0px 0px 400px;
+}
+
+.head {
+    display: grid;  
+
+}
+o {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 28px;
+
+}
+p {
+    font-size: 14px;
+    text-align: center;    
+    color: #777;
+    margin-bottom: 5px;
+    border-bottom: 4px solid #333;
+}
+
+
+h3 {
+    text-align: center;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="password"], input[type="date"], select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="file"] {
+    margin-bottom: 15px;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="reset"] {
+    background-color: #f44336;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button[type="reset"]:hover {
+    background-color: #e53935;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Mengatur tampilan form field radio button dan checkbox */
+label[for="laki"], label[for="perempuan"], label[for="newsletter"] {
+    display: inline-block;
+    margin-right: 20px;
+    color: #555;
+}
+
+/* Mengatur margin bawah untuk setiap elemen form */
+input, select, textarea {
+    margin-bottom: 15px;
+}
+
+/* Mengatur tampilan container form */
+form h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+
+    </style>
+    <body>
+        <div class="head" > 
+        <img src="unidra.jpg" alt="logo" class="logo"> 
+        <o>UNIVERSITAS INDRAPRASSTA PGRI</o>
+        <P style="text-align: center;">Jl. Nangka No.58 Tanjung Barat-Jaksel</P>    
+        </div>
+       
+
+        <h3>Biodata Mahasiswa</h3>
+        <form action="#" method="post">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required><br><br>
+
+            <label for="alamat">Alamat:</label>
+            <textarea id="alamat" name="alamat" rows="4" cols="50"></textarea><br><br>
+
+            <label for="tgl_lahir">Tanggal Lahir:</label>
+            <input type="date" id="tgl_lahir" name="tgl_lahir"><br><br>
+
+            <label for="telp">Telepon:</label>
+            <input type="tel" id="telp" name="telp"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            
+            <!-- Tambahan elemen -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br><br>
+
+            <label>Jenis Kelamin:</label>
+            <input type="radio" id="laki" name="gender" value="Laki-laki">
+            <label for="laki">Laki-laki</label>
+            <input type="radio" id="perempuan" name="gender" value="Perempuan">
+            <label for="perempuan">Perempuan</label><br><br>
+
+            <label for="prodi">Program Studi:</label>
+            <select id="prodi" name="prodi">
+            <option value="informatika">Informatika</option>
+            <option value="sistem_informasi">Sistem Informasi</option>
+            <option value="manajemen">Manajemen</option>
+            </select><br><br>
+
+        <label for="dokumen">Upload Dokumen:</label>
+        <input type="file" id="dokumen" name="dokumen"><br><br>
+
+        <label for="newsletter">Daftar Newsletter:</label>
+        <input type="checkbox" id="newsletter" name="newsletter" value="Ya"><br><br>
+
+        <button type="reset">Reset</button>
+        <button type="submit">Simpan</button>
+            
+        </form>
+    </body>
+</html>
