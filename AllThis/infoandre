@@ -1,0 +1,191 @@
+
+
+        <!--Untuk Home-->
+        <section id="Home">
+            <div class="Kolom">
+                <p class="deskripsi">Apa yang anda ketahui tentang limbah medis?</p>
+                <h2>Penjelasan Limbah Medis</h2>
+                <p>Mengacu pada data resmi Kementerian Lingkungan Hidup dan Kehutanan, lembaga kesehatan, atau organisasi terkait lainnya sering merilis data terbaru mengenai limbah medis.</p>
+                <p>Limbah medis adalah segala jenis sampah yang dihasilkan dari kegiatan pelayanan kesehatan, baik dari rumah sakit, klinik, laboratorium, atau fasilitas kesehatan lainnya. Limbah ini memiliki karakteristik khusus yang berbeda dengan limbah rumah tangga biasa, karena seringkali mengandung zat-zat berbahaya seperti patogen, bahan kimia, dan radiasi.</p>
+                <p><a href="https://rimbakita.com/limbah-medis/" class="tbl-biru">Pelajari Lebih Lanjut</a></p>
+            </div>
+        <img src="https://img.freepik.com/premium-photo/workers-sorting-trash-conveyor-belt_236854-921.jpg?ga=GA1.1.161805547.1727528362&semt=ais_hybrid"/>
+        </section>
+        <!--untuk Home-->
+        <section id="Home">
+                <div class="kolom">
+                    <p class="deskripsi">Tahukah anda jenis-jenis limbah medis?</p>
+                    <h2>Jenis Limbah Medis</h2>
+                    <p>Limbah Infeksius merupakan limbah yang paling berbahaya karena mengandung mikroorganisme patogen seperti bakteri, virus, dan jamur.</p>
+                    <p>Limbah Patologis limbah yang berasal dari jaringan manusia atau hewan, seperti organ, bagian tubuh, dan sampel biologi.</p>
+                    <p>Limbah Farmasi limbah yang berasal dari obat-obatan yang sudah kadaluarsa, sisa obat, dan kemasan obat.</p>
+                    <p><a href="https://tirto.id/apa-itu-limbah-medis-dan-bagaimana-cara-menanganinya-ei2F#:~:text=Berikut%20ini%20kategori%20limbah%20medis%20yang%20paling%20umum,6%20Bahan%20kimia.%20...%207%20Limbah%20Genotoksik.%20" class="tbl-biru">Pelajari Lebih Lanjut</a></p>
+                </div>
+            <img src="https://img.freepik.com/premium-photo/establishing-partnerships-with-local-waste-managem-generative-ai_1169649-143187.jpg?uid=R165621738&ga=GA1.1.650354745.1727493203&semt=ais_hybrid"/>
+        </section>
+        <!--untuk Home-->
+        <section id="Home">
+            <div class="kolom">
+                <p class="deskripsi">Tahukah anda dampak dari suatu limbah medis untuk lingkungan hidup?</p>
+                <h2>Dampak Limbah Medis</h2>
+                <p>Limbah medis memiliki potensi bahaya yang besar bagi lingkungan jika tidak dikelola dengan baik. Oleh karena itu, pengelolaan limbah medis yang aman dan berkelanjutan sangat penting untuk melindungi lingkungan dan kesehatan masyarakat.</p>
+                <p>Kerusakan Ekosistem pencemaran ini dapat merusak ekosistem, membunuh organisme hidup, dan mengganggu rantai makanan.</p>
+                <p><a href="https://www.indonesian-publichealth.com/pengaruh-limbah-medis-terhadap-kesehatan/" class="tbl-biru">Pelajari Lebih Lanjut</a></p>
+            </div>
+            <img src="https://img.freepik.com/premium-photo/blue-white-object-with-blue-cover-blue-bag-garbage_1105604-73111.jpg?ga=GA1.1.161805547.1727528362&semt=ais_hybrid"/>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer>
+    <div class="footer-container">
+        <div class="footer-column">
+            <h4>Tentang Kami</h4>
+            <ul>
+                <li><a href="#">Overview</a></li>
+                <li><a href="#">History</a></li>
+                <li><a href="#">Pencapaian</a></li>
+                <li><a href="#">Hubungan Investor</a></li>
+                <li><a href="#">Program CSR</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h4>Untuk Pasien</h4>
+            <ul>
+                <li><a href="#">Pusat Unggulan</a></li>
+                <li><a href="#">Telekonsultasi</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h4>Untuk Perusahaan</h4>
+            <ul>
+                <li><a href="#">Laporan Keuangan</a></li>
+                <li><a href="#">Laporan Tahunan</a></li>
+                <li><a href="#">Corporate Governance</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h4>Untuk Profesional</h4>
+            <ul>
+                <li><a href="#">Pusat Pelatihan</a></li>
+                <li><a href="#">Pusat Unggulan</a></li>
+                <li><a href="#">Karir</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h4>Ayo Terhubung dengan Kami</h4>
+            <ul class="social-icons">
+                <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; Copyright 2024, PT Siloam International Hospitals Tbk.</p>
+        <p><a href="#">Syarat dan Ketentuan</a> | <a href="#">Kebijakan Privasi</a></p>
+    </div>
+</footer>
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background-color: #013D94;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 40px;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.footer-column h4 {
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons li a {
+    color: white;
+    font-size: 20px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #002E6D;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 5px 0;
+}
+
+.footer-bottom a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
