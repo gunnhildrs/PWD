@@ -1,0 +1,763 @@
+/*Untuk membuat semua style html body paragraf diberikan margin 0   so whoever you are, take this your sign. The moment is now. Go all in. Don't Delay. Have courage. Be the one brave enough to take action. Because this life id for whose who do.*/
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: 'Inter'; 
+    src: url('InterMedium.woff2') format('woff2'),
+         url('InterMedium.woff') format('woff'); 
+    font-weight: normal;
+    font-style: normal; 
+}
+
+body{
+    font-family:'Inter';
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    place-items: center;
+    justify-content: space-around;
+    align-items: center;
+}
+/*Bagian Logo atas kiri*/
+.logowo{
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 80px;
+}
+.wrapper{
+    width: 1100px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.logo a{
+    margin-left: 2px;
+    font-size: 30px;
+    font-weight: 100;
+    float: left;
+    font-family: Courier;
+    color: #D2E0FB;
+}
+/*Bagian Keseluruhan Menu*/
+.menu{
+   position: relative;
+    display: inline-block;
+}
+
+nav {
+    width: 100%;
+    height: 75px;
+    margin: auto;
+    display: flex;
+    line-height: 1px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #16325B;
+    z-index: 10;
+    border-bottom:1px solid #16325B ;
+}
+
+/*bagian pop-up menu tab*/
+nav qul{
+    list-style-type: none;
+    margin: 14px;
+    padding: 256px;
+    overflow: hidden;
+    
+}   
+
+nav qul .opsi{
+    float:left;
+    font-size: 18px;
+    color:#dfdfdf;
+    padding: 39px 0px 16px 60px;
+    text-decoration:none; 
+    cursor: pointer;
+}
+
+nav qul .ex-opsi {
+    position: absolute;
+    
+    font-size: 13px;
+    top: 100%;
+    left: 0;
+    display: none;
+    background-color: #16325B;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 80%; /* Sesuaikan lebar dropdown */
+}
+
+nav qul .ex-opsi li {
+padding: 10px;
+color:#dfdfdf;
+list-style: none;
+padding-left: 50px;
+padding-bottom: 20px;
+text-align: left;
+}
+
+nav qul .ex-opsi li:last-child{
+border-bottom: none;
+}
+
+/*cover+pup-up*/
+
+.cover {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 366px;
+    width: 1080px;
+    background-image: url('cover1.jpg');
+    background-size: 100%;
+    background-position: center;
+    position: -webkit-sticky;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Overlay effect */
+    z-index: 1;
+}
+
+.popup {
+    position: relative;
+    background-color: rgb(231, 231, 231);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    z-index: 2;
+    width: 65%;
+    max-width: 800px;
+}
+
+.popup h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.popup p {
+    font-size: 1.2em;
+    margin-bottom: 6px;
+}
+
+.search-box {
+    margin-bottom: 20px;
+}
+
+.search-box input {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-box button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #16325B;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons a:hover {
+    background-color: #0056b3;
+}
+
+/*text boxx*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.tabing {
+    display: flex;
+    justify-content:space-around ;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+    
+  }
+  
+  .box {
+    display: flex;    
+    border: 1px solid #16325B; 
+    padding: 10px;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 200px;
+    flex: 1;
+    margin-right: 20px;
+  }
+  .log{
+    width : 30px ;
+    height : 32px;
+    margin-right: 10px;
+  }
+
+  .text{
+    flex-grow: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    color: #16325B;    
+  }
+
+/*text total"an*/
+.count {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f2f2f2;
+    width: 98.4%;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .stat {
+    display: flex;
+    text-align: center;
+  }
+  .stat-number {
+    font-size: 30px;
+    font-weight: bold;
+    color: #16325B;
+  }
+  .stat-text {
+    align-items: center;
+    padding: 12px 6px 0px 12px;
+    opacity: 70%;
+    font-size: 12px;
+    color: #181818;
+  }
+  
+/* Bagian layer informasi*/
+
+.page {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0%; 
+    background: url('Limbah_medis.jpg') no-repeat center center/cover; 
+    position: sticky;
+    width: 1080px;
+    height: 500px;
+    position: relative;
+    color: white;
+}
+
+.info {
+    margin-left: 35px;
+    z-index: 2; 
+    max-width: 600px;
+}
+
+.info h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    opacity: 0.7;
+}
+
+.info h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.story {
+    font-size: 1rem;
+    line-height: 1.2;
+    margin-bottom: 0px;
+    z-index: 2;
+}
+
+.butt {
+    margin-top: 15px;
+    margin-left: 0px;
+    display: flex;
+   
+}
+
+.btn, .btn-secondary {
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #16325B;
+    color: #fff;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+/* Tambahkan efek background */
+.page::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+    pointer-events: none;
+}
+
+.info {
+    position: relative;
+    z-index: 2;
+}
+
+
+/* Section Services*/
+  services {
+    display: grid; grid-template-columns:repeat(auto-fit( 200px, 1fr))
+  }
+    .service{ 
+        background-color: #D2E0FB;
+
+    }
+ 
+/*Footer*/  
+footer {
+    background-color: #16325B;
+    width: 100%;
+    color: white;
+    padding: 5px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.footer-column h4 {
+    margin-left: 60px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    margin-left: 60px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+/*ini masukknya  bbukan home page, yang atas home page semua*/
+/*INI BUAT TAB YANG ADA '>' NYA */   
+.tabbb {
+    background-color: #C4D7FF;
+    width: 100%;
+    height: 30px;
+    margin: auto;
+    display: flex;
+    line-height: 1px;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    float:left;
+    margin-top: 75px;
+    
+}
+.tabbb li {
+    font-size: 14px;
+    text-decoration:none; 
+    margin-top: 15px;  
+    list-style: none;
+}
+
+.tabbb li a{
+    color: #16325B ;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.tabbb li a:active {
+    color: #28a745;
+    
+}
+
+/*BUAT TEXXT BODY BAGIAN PAGE LIMBAH"AN */
+.isinya{
+    display: flow-root;
+    justify-content: center;    
+    position: sticky;
+    position: -webkit-sticky;
+    max-width: 1080px;
+}
+.fotoo{
+    position: relative;
+    margin-left: 35px;
+}
+
+.teks {
+    margin-left: 35px;
+    z-index: 2; 
+    text-align: justify;
+}
+
+.teks h4 {
+    font-weight: 500;
+    color: #3A6D8C;
+    font-size: 1.7rem;
+    margin-bottom: 3px;
+}
+ull {
+    list-style: none;
+    padding: 0;
+}
+.teks h1 {
+    font-weight: 600;
+    color: #16325B;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 4px;
+}
+
+.isii {
+    font-weight:300;
+    font-size: 1.2rem;
+    line-height: 1.3;
+    margin-bottom: 4px;
+    z-index: 2;
+}
+
+/*jeniss-jenisnya*/
+.rad {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0%; 
+    background: url('sampah\ kuning.jpg') no-repeat center center/cover; 
+    position: sticky;
+    width: 1080px;
+    height: 500px;
+    position: relative;
+    color: white;
+    margin-bottom: 25px;
+    margin-top: 30px;
+    z-index: 2;
+}
+
+.rad::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+    pointer-events: none;
+}
+
+.rad1 {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0%; 
+    background: url('radoaktif\ lagi.jpg') no-repeat center center/cover; 
+    position: sticky;
+    width: 1080px;
+    height: 500px;
+    position: relative;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.rad1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 0;
+    pointer-events: none;
+}
+
+.rad2 {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0%; 
+    background: url('Lab\ Patologi.jpg') no-repeat center center/cover; 
+    position: sticky;
+    width: 1080px;
+    height: 500px;
+    position: relative;
+    color: white;
+    margin-bottom: 25px;
+
+}
+
+.rad2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 0;
+    pointer-events: none;
+}
+
+.rad3 {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0%; 
+    background: url('kimiawi\ 4.jpg') no-repeat center center/cover; 
+    position: sticky;
+    width: 1080px;
+    height: 500px;
+    position: relative;
+    color: white;
+    margin-bottom: 25px;
+
+}
+
+.rad3::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 0;
+    pointer-events: none;
+}
+
+
+.rad4 {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0%; 
+    background: url('Sitotoksik\ 1.jpg') no-repeat center center/cover; 
+    position: sticky;
+    width: 1080px;
+    height: 500px;
+    position: relative;
+    color: white;
+    margin-bottom: 25px;
+
+}
+
+.rad4::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 0;
+    pointer-events: none;
+}
+
+.rad5 {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0%; 
+    background: url('Limbah\ Obat\ 1.jpg') no-repeat center center/cover; 
+    position: sticky;
+    width: 1080px;
+    height: 500px;
+    position: relative;
+    color: white;
+    margin-bottom: 25px;
+
+}
+
+.rad5::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 0;
+    pointer-events: none;
+}
+
+.rad6 {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0%; 
+    background: url('Benda\ Tajam\ 2.jpg') no-repeat center center/cover; 
+    position: sticky;
+    width: 1080px;
+    height: 500px;
+    position: relative;
+    color: white;
+    margin-bottom: 25px;
+
+}
+
+.rad6::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 0;
+    pointer-events: none;
+}
+
+.rad7 {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0%; 
+    background: url('Benda\ tajam\ 3.jpg') no-repeat center center/cover; 
+    position: sticky;
+    width: 1080px;
+    height: 500px;
+    position: relative;
+    color: white;
+    margin-bottom: 25px;
+
+}
+
+.rad7::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 0;
+    pointer-events: none;
+}
+
+.con {
+    text-align: center;
+      padding: 50px;
+  }
+  .con h1 {
+      font-size: 2em;
+      margin-bottom: 0px;
+      color: #333;
+  }
+  .con h2 {
+      font-size: 3em;
+      color: #333;
+      margin: 10px 0;
+  }
+  .con p {
+      font-size: 1em;
+      color: #666;
+      margin-bottom: 50px;
+  }
+  .tutors-section {
+      margin-bottom: 50px;
+  }
+  .tutors {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+  }
+  .tutor {
+      text-align: center;
+  }
+  .tutor img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+  }
+  .tutor-name {
+      font-size: 1.2em;
+      color: #333;
+      margin-top: 10px;
+  }
+  .tutor-npm {
+      font-size: 1em;
+      color: #666;
+      margin-top: 5px;
+  }
+
+
