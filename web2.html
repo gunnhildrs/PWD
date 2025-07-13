@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOAL PERTEMUAN 12</title>
+</head>
+<body>
+    <form>
+        <code>
+            <label for="nasiGoreng">Jumlah Nasi Goreng :</label>
+            <input type="text" id="nasiGoreng" size="1" placeholder="0"><br><br>
+
+            <label for="mieGoreng">Jumlah Mie Goreng :</label>
+            <input type="text" id="mieGoreng" size="1" placeholder="0"><br><br>
+
+            <label for="ayamGoreng">Jumlah Ayam Goreng:</label>
+            <input type="text" id="ayamGoreng" size="1" placeholder="0"><br><br>
+
+            <button type="button" onclick="hitungTotal()">Hitung</button><br><br>
+
+            <label for="total">Total Sebelum Diskon:</label>
+            <input type="text" id="total" size="10" placeholder="Rp 0" readonly><br><br>
+
+            <label for="diskon">Diskon:</label>
+            <input type="text" id="diskon" size="10" placeholder="Rp 0" readonly><br><br>
+
+            <label for="totalAkhir">Total Setelah Diskon:</label>
+            <input type="text" id="jumlah" size="10" placeholder="Rp 0" readonly>
+
+        </code>
+    </form>
+
+    <script type="text/javascript">
+        function hitungTotal() {
+            var hargaNasi = 25000;
+            var hargaMie = 20000;
+            var hargaAyam = 30000;
+
+            var jumlahNasi = parseInt(document.getElementById("nasiGoreng").value) || 0;
+            var jumlahMie = parseInt(document.getElementById("mieGoreng").value) || 0;
+            var jumlahAyam = parseInt(document.getElementById("ayamGoreng").value) || 0;
+
+            var total= (jumlahNasi * hargaNasi) + (jumlahMie * hargaMie) + (jumlahAyam * hargaAyam);
+
+            var diskon = 0;
+            if (total > 150000) {
+                diskon = total * 0.15;
+            } else if (total > 100000) {
+                diskon = total * 0.10;
+            }
+
+            var jumlah = total - diskon;
+
+            document.getElementById("total").value = "Rp " + total;
+            document.getElementById("diskon").value = "Rp " + diskon;
+            document.getElementById("jumlah").value = "Rp " + jumlah;
+        }
+    </script>
+</body>
+</html>
